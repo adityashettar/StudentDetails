@@ -1,12 +1,12 @@
 import sys
           # Check if correct number of argument
-if len(sys.argy) == 3:
-  script_name = sys.argy[0]
-  name = sys.argy[1]
-  rollno = sys.argy[2]
+if len(sys.argv) == 3:
+  script_name = sys.argv[0]
+  name = sys.argv[1]
+  rollno = sys.argv[2]
   print("User provided input values:")
 else:
-  script_name =sys.argy[0]
+  script_name =sys.argv[0]
   name = "Deepa"
   rollno = "101"
   print("No input given - using default values:")
